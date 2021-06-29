@@ -1,0 +1,11 @@
+.card-body {
+  span {
+    flex: 1 0 25%;
+    font-size: small;
+    text-align: center;
+
+    &:first-child {
+      text-align: start;
+    }
+  }
+}

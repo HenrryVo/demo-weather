@@ -1,0 +1,50 @@
+{
+  "name": "react-weather",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.1",
+    "customize-cra": "^1.0.0",
+    "jest-junit": "^12.1.0",
+    "moment": "^2.29.1",
+    "node-sass": "4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-app-polyfill": "^2.0.0",
+    "react-app-rewired": "^2.1.8",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-test-renderer": "^17.0.2",
+    "react-toastify": "^7.0.4",
+    "reactstrap": "^8.9.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "GENERATE_SOURCEMAP=false react-app-rewired build && serve -s build",
+    "test": "react-scripts test",
+    "test:ci": "npm run test -- --coverage --updateSnapshot --ci --testResultsProcessor=\"jest-junit\" --watchAll=true"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

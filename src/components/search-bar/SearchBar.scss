@@ -1,0 +1,23 @@
+@import 'styles/color';
+.search-bar {
+
+  input,
+  button {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+
+    &:active,
+    &:focus {
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+    }
+  }
+
+  button {
+    &:hover {
+      background-color: $light-black-color;
+    }
+  }
+}
