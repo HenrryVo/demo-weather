@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Site demo [here](https://belljourney.z31.web.core.windows.net/).
+
+The application using service of [openweathermap](https://openweathermap.org/).
+
 ## Available Scripts
 
 In the project directory, you can run:

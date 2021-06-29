@@ -1,13 +1,14 @@
 import React from "react";
 import { Spinner, Container } from "reactstrap";
+import "./Loader.scss";
 
 const Loader = () => {
   return (
-    <Container className="themed-container text-center mt-5" fluid={true}>
+    <Container className="themed-container text-center" fluid={true}>
       <Spinner
         animation="border"
         color="success"
-        style={{ width: "4rem", height: "4rem" }}
+        className="icon-spinner"
       />
     </Container>
   );
