@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import { Loader } from "components/loader";
+import { Loader } from "components";
 import { route } from "./Route";
 
 const App = () => {

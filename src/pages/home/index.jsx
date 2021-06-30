@@ -9,9 +9,7 @@ import { fetchDataWeather } from "services";
 import { isEmptyVal } from "helpers/Ultilities";
 
 // import comon components
-import CardView from "components/card-view/CardView";
-import { Loader } from "components/loader";
-import { SearchBar } from "components/search-bar";
+import { Loader, SearchBar, CardView } from "components";
 
 // import style
 import "./style.scss";

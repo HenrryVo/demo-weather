@@ -11,19 +11,19 @@ const CardView = ({ data }) => {
       <Card>
         <CardBody className="card-body align-center">
           <Row xs="1" md="1" lg="2" xl="2" className="mb-3">
-            <h5 className="col-7 m-0 pl-0 ">{day}</h5>
-            <span className="col-5 m-auto">{date}</span>
+            <h5 className="col-7 m-0 pr-0">{day}</h5>
+            <span className="col-5 m-auto pl-0">{date}</span>
           </Row>
           <Row xs="1" md="1" lg="2" xl="2">
-            <div className="col d-flex">
-              <span>From</span>
+            <div className="col d-flex pr-0">
+              <span className="temp-number">From</span>
               <span>
                 <strong>{tempMin}</strong>
                 <sup> o</sup>C
               </span>
             </div>
-            <div className="col d-flex">
-              <span>to</span>
+            <div className="col d-flex pr-0">
+              <span className="temp-number">to</span>
               <span>
                 <strong>{tempMax}</strong>
                 <sup> o</sup>C
